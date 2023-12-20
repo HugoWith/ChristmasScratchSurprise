@@ -8,6 +8,14 @@ function App() {
   const [scratchedPercent, setScratchedPercent] = useState(100);
   const { width, height } = useWindowSize();
 
+  document.addEventListener(
+    "touchmove",
+    function (event) {
+      event.preventDefault();
+    },
+    { passive: false },
+  );
+
   // Ensure square aspect ratio for canvas
   let canvasSize;
   if (width < 768) {
