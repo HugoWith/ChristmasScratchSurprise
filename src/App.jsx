@@ -43,10 +43,10 @@ function App() {
         {scratchedPercent < 15 && (
           <>
             <h2 className="animate-fadeIn text-center text-base">
-              A Steam gift card
+              A Steam gift card to play
             </h2>
             <p className="animate-fadeInDelayed text-center text-base opacity-0">
-              to play the best indie games
+              to the best indie games
             </p>
             <p className="animate-fadeInDelayed2 text-center text-base opacity-0">
               Mate Teasmas 🎄
