@@ -90,7 +90,7 @@ const ScratchCard = ({
       {ready && (
         <YouTube
           ref={videoRef}
-          videoId={"c4_vPBKZY6c"}
+          videoId={"av3K-PEEF1c"}
           opts={{
             width: width.toString(),
             height: height.toString(),

@@ -27,8 +27,8 @@ function App() {
 
   // Adjust canvas size based on window size
   return (
-    <main className="flex flex-col items-center justify-center w-full h-screen gap-8">
-      <h1 className="text-2xl text-indigo-700">Merry Christhus</h1>
+    <main className="flex h-screen w-full flex-col items-center justify-center gap-8">
+      <h1 className="text-2xl text-indigo-700">Merry Christmas Brandon</h1>
       <ScratchCard
         width={canvasSize}
         height={canvasSize}
@@ -39,17 +39,17 @@ function App() {
       <h2 className="font-sans text-sm font-bold text-indigo-600">
         {scratchedPercent.toFixed(0)}%
       </h2>
-      <div className="w-full h-24 mb-4 overflow-hidden">
+      <div className="mb-4 h-24 w-full overflow-hidden">
         {scratchedPercent < 15 && (
           <>
-            <h2 className="text-base text-center animate-fadeIn">
-              Rendez vous le 23 Mars avec la personne de ton choix
+            <h2 className="animate-fadeIn text-center text-base">
+              A Steam gift card
             </h2>
-            <p className="text-base text-center opacity-0 animate-fadeInDelayed">
-              pour siffler Julien.
+            <p className="animate-fadeInDelayed text-center text-base opacity-0">
+              to play the best indie games
             </p>
-            <p className="text-base text-center opacity-0 animate-fadeInDelayed2">
-              Joyeux Noel 🎄
+            <p className="animate-fadeInDelayed2 text-center text-base opacity-0">
+              Mate Teasmas 🎄
             </p>
           </>
         )}
