@@ -29,7 +29,7 @@ function App() {
   // Adjust canvas size based on window size
   return (
     <main className="flex h-screen w-full flex-col items-center justify-center gap-8">
-      <h1 className="text-2xl text-indigo-700">👿 Princesse des tenebres 🧑‍🎄</h1>
+      <h1 className="text-2xl text-indigo-700">🎅 Padre et Madre 🧑‍🎄</h1>
       <ScratchCard
         width={canvasSize}
         height={canvasSize}
@@ -44,10 +44,10 @@ function App() {
         {scratchedPercent < 15 && (
           <>
             <h2 className="animate-fadeIn text-center text-base">
-              Rendez vous le 20 Mars 2025 avec la personne de ton choix
+              Rendez vous le 12 Octobre prochain
             </h2>
             <p className="animate-fadeInDelayed text-center text-base opacity-0">
-              pour le nouveau spectacle de Paul Mirabel a Lyon.
+              pour Starmania a Lyon.
             </p>
             <p className="animate-fadeInDelayed2 text-center text-base opacity-0">
               Joyeux Noel 🎄
