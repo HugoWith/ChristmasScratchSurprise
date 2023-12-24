@@ -47,7 +47,7 @@ function App() {
               Rendez vous le 30 Novembre Prochain
             </h2>
             <p className="animate-fadeInDelayed text-center text-base opacity-0">
-              pour le S a Saint Etienne
+              pour le S a Saint Etienne avec la personne de ton choix
             </p>
             <p className="animate-fadeInDelayed2 text-center text-base opacity-0">
               Joyeux Noel 🎄
