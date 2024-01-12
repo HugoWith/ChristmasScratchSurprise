@@ -29,7 +29,7 @@ function App() {
   // Adjust canvas size based on window size
   return (
     <main className="flex h-screen w-full flex-col items-center justify-center gap-8">
-      <h1 className="text-2xl text-indigo-700">🎅 Martiiiiiin 🤘</h1>
+      <h1 className="text-2xl text-indigo-700">🧑‍🎄 Al 🤹‍♂️</h1>
       <ScratchCard
         width={canvasSize}
         height={canvasSize}
@@ -44,10 +44,11 @@ function App() {
         {scratchedPercent < 15 && (
           <>
             <h2 className="animate-fadeIn text-center text-base">
-              Rendez vous le 30 Novembre Prochain
+              Une place pour aller au cirque d hiver pour un pestacle delirant
             </h2>
             <p className="animate-fadeInDelayed text-center text-base opacity-0">
-              pour le S a Saint Etienne avec la personne de ton choix
+              Equilibriste, accrobate, jongleur, clown, magicien, trapeziste on
+              est chauuuud
             </p>
             <p className="animate-fadeInDelayed2 text-center text-base opacity-0">
               Joyeux Noel 🎄
