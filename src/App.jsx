@@ -40,7 +40,7 @@ function App() {
       <h2 className="font-sans text-sm font-bold text-indigo-600">
         {scratchedPercent.toFixed(0)}%
       </h2>
-      <div className="mb-4 h-24 w-full overflow-hidden">
+      <div className="mb-4 h-24 w-full overflow-hidden px-2">
         {scratchedPercent < 15 && (
           <>
             <h2 className="animate-fadeIn text-center text-base">
