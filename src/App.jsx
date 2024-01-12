@@ -44,11 +44,11 @@ function App() {
         {scratchedPercent < 15 && (
           <>
             <h2 className="animate-fadeIn text-center text-base">
-              Une place pour aller au cirque d hiver pour un pestacle delirant
+              Une place pour aller au cirque d hiver pour un pestacle delirant.
             </h2>
             <p className="animate-fadeInDelayed text-center text-base opacity-0">
               Equilibriste, accrobate, jongleur, clown, magicien, trapeziste on
-              est chauuuud
+              est chauuuud !
             </p>
             <p className="animate-fadeInDelayed2 text-center text-base opacity-0">
               Joyeux Noel 🎄
